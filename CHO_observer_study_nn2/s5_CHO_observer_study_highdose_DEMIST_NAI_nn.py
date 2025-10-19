@@ -1,0 +1,243 @@
+import numpy as np
+import argparse
+from custom_function import *
+from glob import iglob
+from collections import defaultdict
+import scipy.ndimage
+import scipy.io as sio
+import sys
+import os
+import csv
+from scipy.ndimage import shift
+
+def my_read_bin(cur_inp_file, data_type, input_shape):
+    A = np.fromfile(cur_inp_file, dtype = data_type)
+    A[np.isnan(A)] = 0
+    A = np.reshape(A, input_shape)
+    A = np.transpose(A, [2, 1, 0])
+    return A
+
+def center_to_def_loc(SA_rec, cur_loc, offset):
+    SA_rec_sliced = SA_rec[:,:,cur_loc[2]+offset]
+    sh_x = SA_rec_sliced.shape[1]//2 - cur_loc[0]
+    sh_y = SA_rec_sliced.shape[0]//2 - cur_loc[1]
+    SA_rec_sh = shift(SA_rec_sliced, [sh_y, sh_x], prefilter=False)
+    return SA_rec_sh
+
+def read_patient_file(file_path):
+
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+    
+    diseased_patients = []
+    healthy_patients = []
+    is_diseased = False
+    is_healthy = False
+
+    for line in lines:
+        line = line.strip()
+        if line == "Selected diseased patients:":
+            is_diseased = True
+            is_healthy = False
+        elif line == "Selected healthy patients:":
+            is_diseased = False
+            is_healthy = True
+        elif is_diseased:
+            if line:
+                diseased_patients.append(line)
+        elif is_healthy:
+            if line:
+                healthy_patients.append(line)
+
+    return diseased_patients, healthy_patients
+
+
+def read_columns_separately(file_path):
+    # Initialize empty lists to store each column's values
+    first_column = []
+    second_column = []
+    third_column = []
+
+    # Open the file and read its content
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+        # Iterate over each line in the file
+        for line in lines:
+            # Split the line by the tab character (or other delimiter)
+            columns = line.strip().split('\t')
+
+            # Ensure the line has at least three columns
+            if len(columns) >= 3:
+                # Append each column value to the corresponding list
+                first_column.append(columns[0])
+                second_column.append(columns[1])
+                third_column.append(columns[2])
+
+    return first_column, second_column, third_column
+
+
+pat_id_arr_fname = f'/datastore01/user-storage/y.zezhang/2025_high_dose_project/document/collimator_record/patients_with_NaI_DE_test_def.txt'
+diseased_patients = np.loadtxt(pat_id_arr_fname, dtype = 'str', comments="#", delimiter=",", unpack=False)
+
+pat_id_arr_fname = f'/datastore01/user-storage/y.zezhang/2025_high_dose_project/document/collimator_record/patients_with_NaI_DE_test_hl.txt'
+healthy_patients = np.loadtxt(pat_id_arr_fname, dtype = 'str', comments="#", delimiter=",", unpack=False)
+
+#print(healthy_patients)
+
+Ud=32
+#subsample_slice=10##########################################################
+#subsample_slice=30##########################################################
+
+location_setting=  ['a','i']
+extent_setting =  [30,45,60] #[30,90,60] 
+severity_setting=  [100,175,250] #[100,175,250]
+
+location_setting_combined=   '_'.join(map(str,location_setting))
+extent_setting_combined =   '_'.join(map(str,extent_setting))
+severity_setting_combined=   '_'.join(map(str,severity_setting))
+
+CT_category=['CTAC']
+
+dose_levels=[4]
+lmbdchdiffs=[7]
+
+def_folder='/datastore01/user-storage/y.zezhang/2025_high_dose_project/data/neural_network_data/def_centroid'
+base_folder = '/datastore01/user-storage/y.zezhang/2025_high_dose_project/data/neural_network_data/nn_pred_DEMIST'
+
+#save_folder = f'{base_folder}/{subsample_slice}'
+inp_shape = (48, 48, 48)
+inp_shape_orig = (48, 48, 48)
+isIO=0
+
+for dose_level in dose_levels:
+    
+    save_folder = f'/datastore01/user-storage/y.zezhang/2025_high_dose_project/data/results'
+    #sub_base_folder=os.path.join(base_folder,study_project)
+    
+    if not os.path.isdir(save_folder):
+        os.mkdir(save_folder)
+    #os.makedirs(save_folder, exist_ok=True)
+
+
+    print('loading pre-written channels file...')
+    if Ud == 32:
+        U_flag = ''
+    elif Ud == 64:
+        U_flag = f'_{Ud}'
+
+    U = np.load(f'U{U_flag}.npy')
+    print('U shape: ',U.shape)
+    U = np.transpose(U, [1,0])
+
+    print(f'loading images... ')
+
+    ff = {'diseased':defaultdict(list), 'healthy':defaultdict(list)}
+    pat_ind_arr = {'diseased':diseased_patients, 'healthy':healthy_patients}
+    
+    for lmbdchdiff_index in lmbdchdiffs:
+
+        for CT_method in CT_category:
+            for diag in ['diseased', 'healthy']:
+                #status_folder=os.path.join(sub_base_folder,diag)
+                subensemble_idx = 0
+                for location in location_setting:
+                    for extent in extent_setting:
+                        for severity in severity_setting:          
+                            if diag == 'diseased':
+                                for  di_item in diseased_patients:
+                                    
+                                    
+                                    patient=di_item
+                                    def_type=f'd{location}21{extent}s{severity}'
+                                    def_centroid_type=def_type.split('s')[0]
+                                
+                                
+                                    #cur_path=os.path.join(base_folder,patient)
+                                    #cur_path=os.path.join(cur_path,CT_method)
+                                    cur_path=os.path.join(base_folder,def_type)
+                                
+                                    #SA_name=os.path.join(cur_path,f'recon_pat{patient}_d{dose_level}_it8_c30o5.img')
+                                    SA_name=os.path.join(cur_path,f'recon_pat{patient}_{def_type}_d{dose_level}_it8_b32_lmbdchdiff{lmbdchdiff_index}_lmbdmdiff0.img')
+                                    
+                                    def_loc_path=os.path.join(def_folder,patient)
+                                    
+                                    try:
+                                        def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod.bin'
+                                        cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift
+                                    except:
+                                        def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod_again3.bin'
+                                        cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift
+                                        
+                                    #def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod.bin'
+                                    
+                                    SA_rec_base = my_read_bin(SA_name, 'float32', inp_shape_orig)    
+                                    #cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift
+                                    
+                                    for offset in [7,8,9]:
+                                        SA_rec = center_to_def_loc(SA_rec_base, cur_loc, offset)
+                                        SA_rec = SA_rec[8:40,8:40]
+                                        if Ud != 32:
+                                            SA_rec = scipy.ndimage.zoom(SA_rec, Ud/32, order=0) # upsampling to 512X512
+                                        SA_rec = (SA_rec-np.min(SA_rec))/(np.max(SA_rec)-np.min(SA_rec))*255
+                                        SA_rec = SA_rec - np.mean(SA_rec) # remove zero frequency component
+                                        ff[diag][subensemble_idx].append(SA_rec.flatten())
+                                    
+                                
+                                
+                            elif diag == 'healthy':
+                                for hl_index,hl_item in enumerate(healthy_patients):
+                                    patient=hl_item
+                                    def_type=f'd{location}21{extent}s{severity}'
+                                    
+                                    #cur_path=os.path.join(base_folder,patient)
+                                    #cur_path=os.path.join(cur_path,CT_method)
+                                    cur_path=os.path.join(base_folder,'hl')
+                            
+                                    #SA_name=os.path.join(cur_path,f'recon_pat{patient}_d{dose_level}_it8_c30o5.img')
+                                    SA_name=os.path.join(cur_path,f'recon_pat{patient}_hl_d{dose_level}_it8_b32_lmbdchdiff{lmbdchdiff_index}_lmbdmdiff0.img')
+                                    
+                                    def_loc_path=os.path.join(def_folder,patient)
+                                    def_centroid_type=def_type.split('s')[0]
+                                    
+                                    try:
+                                        def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod.bin'
+                                        cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift
+                                    except:
+                                        def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod_again3.bin'
+                                        cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift
+                                    #def_loc_fname=def_loc_path +'/'+ 'def_centroid_' + def_centroid_type + '_mod_again3.bin'
+                                    
+                                    SA_rec_base = my_read_bin(SA_name, 'float32', inp_shape_orig)    
+                                    #cur_loc = np.fromfile(def_loc_fname, dtype = 'float32').astype(int) - 1 #0 -based / but nn2D has 1 shift 
+                                    
+                                    for offset in [7,8,9]:
+                                        SA_rec = center_to_def_loc(SA_rec_base, cur_loc, offset)
+                                        SA_rec = SA_rec[8:40,8:40]
+                                        if Ud != 32:
+                                            SA_rec = scipy.ndimage.zoom(SA_rec, Ud/32, order=0) # upsampling to 512X512
+                                        SA_rec = (SA_rec-np.min(SA_rec))/(np.max(SA_rec)-np.min(SA_rec))*255
+                                        SA_rec = SA_rec - np.mean(SA_rec) # remove zero frequency component
+                                        ff[diag][subensemble_idx].append(SA_rec.flatten())
+                                    
+
+        print('calculating test statistics...')
+        tS_sum = []
+        tN_sum = []
+
+
+        # write txt
+
+
+        tS, tN = MultiLDpooled(ff['diseased'][0],ff['healthy'][0],U,isIO)
+        fname_tSN = f'{save_folder}/t_DE_NAI_loc_{location_setting_combined}_sev_{severity_setting_combined}_ext_{extent_setting_combined}_dose_level{dose_level}_IO{isIO}_Ud{Ud}_nn.txt'
+        with open(fname_tSN, 'w') as f:
+            f.writelines('Initial Line\nLarge\n')
+            for dd in tN:
+                f.writelines(f"{dd}\n")
+            f.writelines('*\n')
+            for dd in tS:
+                f.writelines(f"{dd}\n")
+            f.writelines('*')
+
+        print('done')
