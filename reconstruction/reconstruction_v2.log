@@ -1,0 +1,332 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Subsets changes from  8 to  6 to make all angles even
+sOutputManager::InitOutputDirectory() -> Output path is '00057885_d25'
+castor-recon() -> Launch reconstruction from CASToR version 3.1.1.
+sScannerManager::Initialize() -> From scanner smc_00057885_d25
+oProjectorManager::Initialize() -> Initialize projectors and projection lines
+----- Dynamic model: No parameters given - setting diagonal basis functions !
+oOptimizerManager::Initialize() -> Initialize optimizer and penalty
+sChronoManager::Initialize() -> Initialize all duration counters for profiling
+vAlgorithm::IterateCPU() -> Start algorithm for 8 iterations
+
+ESSE kernel is empty, will not use that.
+
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 1/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 2/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 3/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 4/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 5/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 6/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 7/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 1/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 2/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 3/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 4/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 5/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+vAlgorithm::IterateCPU() -> Start iteration 8/8 subset 6/6
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+not using ESSE kernel!
+iIterativeAlgorithm::StepAfterSubsetLoop() -> Save image at iteration 8
+vAlgorithm::IterateCPU() -> Total time spent | User: 46 sec | CPU: 4.6349998e+01 sec
+sChronoManager::Display() -> Results from the profiling
+  --> Profiling of the data update step:
+    | Datafile management: 00 hours 00 mins 00 secs 697 ms
+    | Dynamic management: 00 hours 00 mins 00 secs 679 ms
+    | Projection management: 00 hours 00 mins 01 secs 818 ms
+    | Optimizer management: 00 hours 00 mins 09 secs 807 ms
+  --> Profiling of the convolution steps: 00 hours 00 mins 00 secs 000 ms
+  --> Custom update step 1: 00 hours 00 mins 00 secs 000 ms
+
+{Error using copyfile
+cp: cannot stat
+‘/datastore01/user-storage/y.zezhang/2025_high_dose_project/data/projection_def_375/00057885/mod_proj_di2115s100_00057885_d25.a00’:
+No such file or directory
+
+Error in reconstruction_v2 (line 185)
+                            copyfile(image_file,'./');
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 

@@ -1,0 +1,21 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2019 The MathWorks, Inc.
+                  R2019a (9.6.0.1072779) 64-bit (glnxa64)
+                               March 8, 2019
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+{Error using copyfile
+cp: cannot stat
+‘/data01/user-storage/y.zezhang/2024_subsample_project/mod_subsample_projection/10/99762042/99762042ct.hct’:
+No such file or directory
+
+Error in image_trial_pipline_CTAC_inverse (line 60)
+            copyfile(CT_head_file,'./');
+
+Error in run (line 91)
+evalin('caller', strcat(script, ';'));
+} 
