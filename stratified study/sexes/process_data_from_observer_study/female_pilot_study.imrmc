@@ -1,0 +1,224 @@
+Simulated iMRMC input from 2025-06-03 03:29:42.955011
+
+NR: 3
+N0: 90
+N1: 90
+NM: 3
+
+BEGIN DATA:
+-1,case500,0,0
+-1,case601,0,1
+-1,case700,0,0
+-1,case291,0,1
+-1,case701,0,1
+-1,case641,0,1
+-1,case811,0,1
+-1,case900,0,0
+-1,case141,0,1
+-1,case740,0,0
+-1,case690,0,0
+-1,case31,0,1
+-1,case560,0,0
+-1,case711,0,1
+-1,case281,0,1
+-1,case890,0,0
+-1,case581,0,1
+-1,case61,0,1
+-1,case261,0,1
+-1,case670,0,0
+-1,case191,0,1
+-1,case570,0,0
+-1,case800,0,0
+-1,case720,0,0
+-1,case131,0,1
+-1,case490,0,0
+-1,case151,0,1
+-1,case471,0,1
+-1,case481,0,1
+-1,case810,0,0
+-1,case730,0,0
+-1,case21,0,1
+-1,case710,0,0
+-1,case790,0,0
+-1,case41,0,1
+-1,case721,0,1
+-1,case201,0,1
+-1,case271,0,1
+-1,case251,0,1
+-1,case880,0,0
+-1,case211,0,1
+-1,case550,0,0
+-1,case651,0,1
+-1,case51,0,1
+-1,case510,0,0
+-1,case750,0,0
+-1,case801,0,1
+-1,case461,0,1
+-1,case11,0,1
+-1,case661,0,1
+-1,case301,0,1
+-1,case791,0,1
+-1,case591,0,1
+-1,case680,0,0
+readerj.tania@wustl.edu,case500,normal count,2
+readerj.tania@wustl.edu,case601,DEMIST,6
+readerj.tania@wustl.edu,case700,high count,2
+readerj.tania@wustl.edu,case291,normal count,6
+readerj.tania@wustl.edu,case701,high count,2
+readerj.tania@wustl.edu,case641,high count,2
+readerj.tania@wustl.edu,case811,DEMIST,6
+readerj.tania@wustl.edu,case900,DEMIST,2
+readerj.tania@wustl.edu,case141,normal count,7
+readerj.tania@wustl.edu,case740,normal count,5
+readerj.tania@wustl.edu,case690,DEMIST,2
+readerj.tania@wustl.edu,case31,DEMIST,7
+readerj.tania@wustl.edu,case560,normal count,2
+readerj.tania@wustl.edu,case711,normal count,6
+readerj.tania@wustl.edu,case281,high count,6
+readerj.tania@wustl.edu,case890,normal count,6
+readerj.tania@wustl.edu,case581,high count,3
+readerj.tania@wustl.edu,case61,DEMIST,3
+readerj.tania@wustl.edu,case261,normal count,7
+readerj.tania@wustl.edu,case670,high count,2
+readerj.tania@wustl.edu,case191,high count,6
+readerj.tania@wustl.edu,case570,DEMIST,2
+readerj.tania@wustl.edu,case800,normal count,6
+readerj.tania@wustl.edu,case720,DEMIST,2
+readerj.tania@wustl.edu,case131,high count,6
+readerj.tania@wustl.edu,case490,high count,3
+readerj.tania@wustl.edu,case151,DEMIST,5
+readerj.tania@wustl.edu,case471,normal count,2
+readerj.tania@wustl.edu,case481,DEMIST,3
+readerj.tania@wustl.edu,case810,DEMIST,6
+readerj.tania@wustl.edu,case730,high count,2
+readerj.tania@wustl.edu,case21,normal count,6
+readerj.tania@wustl.edu,case710,normal count,2
+readerj.tania@wustl.edu,case790,high count,2
+readerj.tania@wustl.edu,case41,high count,2
+readerj.tania@wustl.edu,case721,DEMIST,6
+readerj.tania@wustl.edu,case201,normal count,7
+readerj.tania@wustl.edu,case271,DEMIST,6
+readerj.tania@wustl.edu,case251,high count,6
+readerj.tania@wustl.edu,case880,high count,2
+readerj.tania@wustl.edu,case211,DEMIST,6
+readerj.tania@wustl.edu,case550,high count,2
+readerj.tania@wustl.edu,case651,normal count,6
+readerj.tania@wustl.edu,case51,normal count,5
+readerj.tania@wustl.edu,case510,DEMIST,3
+readerj.tania@wustl.edu,case750,DEMIST,2
+readerj.tania@wustl.edu,case801,normal count,5
+readerj.tania@wustl.edu,case461,high count,5
+readerj.tania@wustl.edu,case11,high count,7
+readerj.tania@wustl.edu,case661,DEMIST,5
+readerj.tania@wustl.edu,case301,DEMIST,2
+readerj.tania@wustl.edu,case791,high count,6
+readerj.tania@wustl.edu,case591,normal count,5
+readerj.tania@wustl.edu,case680,normal count,2
+readerwenxuan.x@wustl.edu,case740,normal count,3
+readerwenxuan.x@wustl.edu,case131,high count,6
+readerwenxuan.x@wustl.edu,case201,normal count,6
+readerwenxuan.x@wustl.edu,case461,high count,3
+readerwenxuan.x@wustl.edu,case701,high count,3
+readerwenxuan.x@wustl.edu,case31,DEMIST,5
+readerwenxuan.x@wustl.edu,case271,DEMIST,5
+readerwenxuan.x@wustl.edu,case490,high count,3
+readerwenxuan.x@wustl.edu,case730,high count,1
+readerwenxuan.x@wustl.edu,case61,DEMIST,3
+readerwenxuan.x@wustl.edu,case810,DEMIST,5
+readerwenxuan.x@wustl.edu,case800,normal count,5
+readerwenxuan.x@wustl.edu,case211,DEMIST,6
+readerwenxuan.x@wustl.edu,case570,DEMIST,1
+readerwenxuan.x@wustl.edu,case481,DEMIST,5
+readerwenxuan.x@wustl.edu,case641,high count,3
+readerwenxuan.x@wustl.edu,case591,normal count,6
+readerwenxuan.x@wustl.edu,case710,normal count,2
+readerwenxuan.x@wustl.edu,case720,DEMIST,1
+readerwenxuan.x@wustl.edu,case560,normal count,3
+readerwenxuan.x@wustl.edu,case601,DEMIST,5
+readerwenxuan.x@wustl.edu,case661,DEMIST,2
+readerwenxuan.x@wustl.edu,case581,high count,3
+readerwenxuan.x@wustl.edu,case301,DEMIST,5
+readerwenxuan.x@wustl.edu,case811,DEMIST,5
+readerwenxuan.x@wustl.edu,case261,normal count,6
+readerwenxuan.x@wustl.edu,case291,normal count,6
+readerwenxuan.x@wustl.edu,case500,normal count,3
+readerwenxuan.x@wustl.edu,case281,high count,6
+readerwenxuan.x@wustl.edu,case890,normal count,4
+readerwenxuan.x@wustl.edu,case750,DEMIST,1
+readerwenxuan.x@wustl.edu,case11,high count,6
+readerwenxuan.x@wustl.edu,case141,normal count,6
+readerwenxuan.x@wustl.edu,case550,high count,2
+readerwenxuan.x@wustl.edu,case151,DEMIST,6
+readerwenxuan.x@wustl.edu,case880,high count,2
+readerwenxuan.x@wustl.edu,case191,high count,5
+readerwenxuan.x@wustl.edu,case791,high count,6
+readerwenxuan.x@wustl.edu,case900,DEMIST,3
+readerwenxuan.x@wustl.edu,case670,high count,1
+readerwenxuan.x@wustl.edu,case651,normal count,6
+readerwenxuan.x@wustl.edu,case21,normal count,5
+readerwenxuan.x@wustl.edu,case700,high count,1
+readerwenxuan.x@wustl.edu,case801,normal count,4
+readerwenxuan.x@wustl.edu,case41,high count,3
+readerwenxuan.x@wustl.edu,case680,normal count,2
+readerwenxuan.x@wustl.edu,case790,high count,2
+readerwenxuan.x@wustl.edu,case690,DEMIST,2
+readerwenxuan.x@wustl.edu,case721,DEMIST,5
+readerwenxuan.x@wustl.edu,case711,normal count,5
+readerwenxuan.x@wustl.edu,case510,DEMIST,2
+readerwenxuan.x@wustl.edu,case471,normal count,6
+readerwenxuan.x@wustl.edu,case51,normal count,5
+readerwenxuan.x@wustl.edu,case251,high count,5
+readery.zezhang@wustl.edu,case740,normal count,1
+readery.zezhang@wustl.edu,case680,normal count,1
+readery.zezhang@wustl.edu,case261,normal count,7
+readery.zezhang@wustl.edu,case41,high count,2
+readery.zezhang@wustl.edu,case791,high count,7
+readery.zezhang@wustl.edu,case711,normal count,7
+readery.zezhang@wustl.edu,case471,normal count,1
+readery.zezhang@wustl.edu,case461,high count,1
+readery.zezhang@wustl.edu,case61,DEMIST,7
+readery.zezhang@wustl.edu,case301,DEMIST,7
+readery.zezhang@wustl.edu,case601,DEMIST,6
+readery.zezhang@wustl.edu,case560,normal count,1
+readery.zezhang@wustl.edu,case661,DEMIST,1
+readery.zezhang@wustl.edu,case651,normal count,7
+readery.zezhang@wustl.edu,case720,DEMIST,1
+readery.zezhang@wustl.edu,case811,DEMIST,7
+readery.zezhang@wustl.edu,case641,high count,1
+readery.zezhang@wustl.edu,case880,high count,1
+readery.zezhang@wustl.edu,case550,high count,1
+readery.zezhang@wustl.edu,case701,high count,7
+readery.zezhang@wustl.edu,case570,DEMIST,1
+readery.zezhang@wustl.edu,case581,high count,1
+readery.zezhang@wustl.edu,case251,high count,7
+readery.zezhang@wustl.edu,case201,normal count,7
+readery.zezhang@wustl.edu,case191,high count,7
+readery.zezhang@wustl.edu,case670,high count,1
+readery.zezhang@wustl.edu,case510,DEMIST,1
+readery.zezhang@wustl.edu,case721,DEMIST,7
+readery.zezhang@wustl.edu,case481,DEMIST,1
+readery.zezhang@wustl.edu,case211,DEMIST,7
+readery.zezhang@wustl.edu,case700,high count,1
+readery.zezhang@wustl.edu,case730,high count,1
+readery.zezhang@wustl.edu,case131,high count,7
+readery.zezhang@wustl.edu,case810,DEMIST,7
+readery.zezhang@wustl.edu,case21,normal count,7
+readery.zezhang@wustl.edu,case281,high count,7
+readery.zezhang@wustl.edu,case31,DEMIST,7
+readery.zezhang@wustl.edu,case890,normal count,2
+readery.zezhang@wustl.edu,case151,DEMIST,6
+readery.zezhang@wustl.edu,case750,DEMIST,1
+readery.zezhang@wustl.edu,case291,normal count,7
+readery.zezhang@wustl.edu,case500,normal count,1
+readery.zezhang@wustl.edu,case591,normal count,2
+readery.zezhang@wustl.edu,case800,normal count,1
+readery.zezhang@wustl.edu,case801,normal count,6
+readery.zezhang@wustl.edu,case11,high count,7
+readery.zezhang@wustl.edu,case690,DEMIST,1
+readery.zezhang@wustl.edu,case271,DEMIST,7
+readery.zezhang@wustl.edu,case900,DEMIST,1
+readery.zezhang@wustl.edu,case490,high count,1
+readery.zezhang@wustl.edu,case710,normal count,1
+readery.zezhang@wustl.edu,case51,normal count,7
+readery.zezhang@wustl.edu,case790,high count,1
+readery.zezhang@wustl.edu,case141,normal count,7

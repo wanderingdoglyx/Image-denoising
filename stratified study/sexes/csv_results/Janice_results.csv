@@ -1,0 +1,181 @@
+User,ImageID,Defect_Present,Confidence,Coordinates,Extent,Severity,Date
+j.tania@wustl.edu,50,False,6,,,,6/2/2025
+j.tania@wustl.edu,39,False,6,,,,6/2/2025
+j.tania@wustl.edu,60,True,2,"X=0.9709, Y=0.1437",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,64,False,7,,,,6/2/2025
+j.tania@wustl.edu,78,True,2,"X=0.9666, Y=0.0878",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,28,False,6,,,,6/2/2025
+j.tania@wustl.edu,70,False,6,,,,6/2/2025
+j.tania@wustl.edu,37,True,7,,,,6/2/2025
+j.tania@wustl.edu,9,True,1,"X=0.0393, Y=0.3292",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,35,True,1,"X=0.9693, Y=0.1696",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,29,True,2,"X=0.9698, Y=0.0958",Large (90 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,70,True,6,,,,6/2/2025
+j.tania@wustl.edu,84,False,5,,,,6/2/2025
+j.tania@wustl.edu,64,True,6,,,,6/2/2025
+j.tania@wustl.edu,50,True,2,"X=0.9655, Y=0.1696",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,7,True,1,"X=0.9725, Y=0.0798",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,81,True,2,"X=0.9698, Y=0.1476",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,38,False,2,"X=0.0361, Y=0.2993",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,30,False,6,,,,6/2/2025
+j.tania@wustl.edu,9,False,2,"X=0.9758, Y=0.1437",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,14,False,6,,,,6/2/2025
+j.tania@wustl.edu,41,False,1,"X=0.9715, Y=0.1476",Large (90 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,13,False,6,,,,6/2/2025
+j.tania@wustl.edu,44,True,2,"X=0.9715, Y=0.0818",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,4,False,7,,,,6/2/2025
+j.tania@wustl.edu,27,False,7,,,,6/2/2025
+j.tania@wustl.edu,82,False,7,,,,6/2/2025
+j.tania@wustl.edu,24,False,5,,,,6/2/2025
+j.tania@wustl.edu,47,False,2,"X=0.9645, Y=0.1516",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,15,False,3,"X=0.2369, Y=0.4050",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,89,True,5,,,,6/2/2025
+j.tania@wustl.edu,34,True,2,"X=0.9682, Y=0.1636",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,86,False,6,,,,6/2/2025
+j.tania@wustl.edu,90,False,6,,,,6/2/2025
+j.tania@wustl.edu,74,True,5,,,,6/2/2025
+j.tania@wustl.edu,14,True,1,"X=0.9715, Y=0.1496",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,16,False,5,,,,6/2/2025
+j.tania@wustl.edu,74,False,3,"X=0.9720, Y=0.1457",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,61,False,6,,,,6/2/2025
+j.tania@wustl.edu,84,True,2,"X=0.9693, Y=0.1437",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,29,False,5,,,,6/2/2025
+j.tania@wustl.edu,24,True,6,,,,6/2/2025
+j.tania@wustl.edu,76,True,6,,,,6/2/2025
+j.tania@wustl.edu,49,True,6,,,,6/2/2025
+j.tania@wustl.edu,69,False,6,,,,6/2/2025
+j.tania@wustl.edu,43,False,2,"X=0.9682, Y=0.1476",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,3,True,1,"X=0.1061, Y=0.3931",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,12,False,3,"X=0.9720, Y=0.1057",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,87,False,2,"X=0.9736, Y=0.1397",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,11,True,2,"X=0.1723, Y=0.3332",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,54,False,6,,,,6/2/2025
+j.tania@wustl.edu,67,True,7,,,,6/2/2025
+j.tania@wustl.edu,10,True,1,"X=0.2386, Y=0.3252",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,83,False,5,,,,6/2/2025
+j.tania@wustl.edu,17,False,3,"X=0.9758, Y=0.0918",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,59,False,3,"X=0.3026, Y=0.3252",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,32,False,3,"X=0.2353, Y=0.3871",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,62,True,1,"X=0.9693, Y=0.0778",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,8,True,1,"X=0.1050, Y=0.3232",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,73,True,1,"X=0.9715, Y=0.0898",Large (90 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,56,False,6,,,,6/2/2025
+j.tania@wustl.edu,46,False,5,,,,6/2/2025
+j.tania@wustl.edu,71,True,2,"X=0.9715, Y=0.1496",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,28,True,2,"X=0.1055, Y=0.3252",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,18,False,6,,,,6/2/2025
+j.tania@wustl.edu,87,True,1,"X=0.0442, Y=0.3731",Large (90 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,45,False,2,"X=0.1034, Y=0.3891",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,89,False,2,"X=0.1055, Y=0.3711",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,58,True,5,,,,6/2/2025
+j.tania@wustl.edu,77,False,6,,,,6/2/2025
+j.tania@wustl.edu,37,False,6,,,,6/2/2025
+j.tania@wustl.edu,34,False,5,,,,6/2/2025
+j.tania@wustl.edu,38,True,5,,,,6/2/2025
+j.tania@wustl.edu,10,False,6,,,,6/2/2025
+j.tania@wustl.edu,6,True,5,,,,6/2/2025
+j.tania@wustl.edu,43,True,3,"X=0.9725, Y=0.0838",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,53,False,6,,,,6/2/2025
+j.tania@wustl.edu,66,False,7,,,,6/2/2025
+j.tania@wustl.edu,12,True,2,"X=0.9731, Y=0.0778",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,54,True,2,"X=0.9715, Y=0.0798",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,51,True,4,,,,6/2/2025
+j.tania@wustl.edu,65,False,6,,,,6/2/2025
+j.tania@wustl.edu,63,True,3,"X=0.1691, Y=0.3272",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,42,False,2,"X=0.9682, Y=0.1516",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,78,False,6,,,,6/2/2025
+j.tania@wustl.edu,42,True,2,"X=0.9731, Y=0.1516",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,48,False,3,"X=0.0975, Y=0.4030",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,26,True,1,"X=0.1050, Y=0.4010",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,58,False,6,,,,6/2/2025
+j.tania@wustl.edu,1,False,6,,,,6/2/2025
+j.tania@wustl.edu,40,False,1,"X=0.9688, Y=0.1556",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,67,False,6,,,,6/2/2025
+j.tania@wustl.edu,69,True,2,"X=0.9715, Y=0.1457",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,52,True,2,"X=0.9661, Y=0.0858",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,26,False,3,"X=0.3721, Y=0.3991",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,68,True,6,,,,6/2/2025
+j.tania@wustl.edu,19,True,2,"X=0.9752, Y=0.1437",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,36,True,1,"X=0.1664, Y=0.4010",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,57,False,6,,,,6/2/2025
+j.tania@wustl.edu,80,False,2,"X=0.9731, Y=0.1496",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,45,True,2,"X=0.9747, Y=0.0758",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,7,False,6,,,,6/2/2025
+j.tania@wustl.edu,72,False,6,,,,6/2/2025
+j.tania@wustl.edu,22,False,6,,,,6/2/2025
+j.tania@wustl.edu,13,True,2,"X=0.9704, Y=0.1516",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,23,False,6,,,,6/2/2025
+j.tania@wustl.edu,82,True,6,,,,6/2/2025
+j.tania@wustl.edu,62,False,3,"X=0.1045, Y=0.4130",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,41,True,3,"X=0.2380, Y=0.3432",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,49,False,5,,,,6/2/2025
+j.tania@wustl.edu,18,True,2,"X=0.0339, Y=0.3971",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,25,False,6,,,,6/2/2025
+j.tania@wustl.edu,17,True,1,"X=0.9698, Y=0.1516",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,90,True,6,,,,6/2/2025
+j.tania@wustl.edu,15,True,3,"X=0.9677, Y=0.1556",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,20,False,5,,,,6/2/2025
+j.tania@wustl.edu,47,True,6,,,,6/2/2025
+j.tania@wustl.edu,44,False,3,"X=0.9709, Y=0.1397",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,85,False,5,,,,6/2/2025
+j.tania@wustl.edu,48,True,5,,,,6/2/2025
+j.tania@wustl.edu,81,False,2,"X=0.9709, Y=0.1476",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,60,False,5,,,,6/2/2025
+j.tania@wustl.edu,73,False,6,,,,6/2/2025
+j.tania@wustl.edu,2,True,2,"X=0.9742, Y=0.1576",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,76,False,6,,,,6/2/2025
+j.tania@wustl.edu,88,True,6,,,,6/2/2025
+j.tania@wustl.edu,71,False,6,,,,6/2/2025
+j.tania@wustl.edu,63,False,5,,,,6/2/2025
+j.tania@wustl.edu,79,False,6,,,,6/2/2025
+j.tania@wustl.edu,19,False,6,,,,6/2/2025
+j.tania@wustl.edu,32,True,1,"X=0.9709, Y=0.1516",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,39,True,6,,,,6/2/2025
+j.tania@wustl.edu,33,True,1,"X=0.9742, Y=0.1576",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,4,True,6,,,,6/2/2025
+j.tania@wustl.edu,72,True,2,"X=0.9704, Y=0.1417",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,20,True,1,"X=0.9742, Y=0.1457",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,31,True,1,"X=0.9693, Y=0.1516",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,33,False,1,"X=0.1045, Y=0.3971",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,36,False,5,,,,6/2/2025
+j.tania@wustl.edu,27,True,2,"X=0.1034, Y=0.3971",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,61,True,3,"X=0.9736, Y=0.0678",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,56,True,3,"X=0.3689, Y=0.1496",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,25,True,2,"X=0.3048, Y=0.3991",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,86,True,1,"X=0.2375, Y=0.3771",Large (90 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,3,False,5,,,,6/2/2025
+j.tania@wustl.edu,88,False,6,,,,6/2/2025
+j.tania@wustl.edu,21,True,2,"X=0.9731, Y=0.1496",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,55,False,6,,,,6/2/2025
+j.tania@wustl.edu,55,True,6,,,,6/2/2025
+j.tania@wustl.edu,31,False,2,"X=0.0372, Y=0.4010",Large (90 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,65,True,2,"X=0.9725, Y=0.0958",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,22,True,5,,,,6/2/2025
+j.tania@wustl.edu,5,True,3,"X=0.1702, Y=0.3332",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,51,False,5,,,,6/2/2025
+j.tania@wustl.edu,6,False,3,"X=0.9639, Y=0.0838",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,5,False,3,"X=0.9655, Y=0.0738",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,35,False,5,,,,6/2/2025
+j.tania@wustl.edu,75,True,2,"X=0.1088, Y=0.3412",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,83,True,6,,,,6/2/2025
+j.tania@wustl.edu,75,False,6,,,,6/2/2025
+j.tania@wustl.edu,2,False,5,,,,6/2/2025
+j.tania@wustl.edu,80,True,3,"X=0.9731, Y=0.1337",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,46,True,3,"X=0.2364, Y=0.3332",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,21,False,5,,,,6/2/2025
+j.tania@wustl.edu,1,True,1,"X=0.9725, Y=0.1496",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,53,True,3,"X=0.1696, Y=0.3252",Small (30 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,11,False,5,,,,6/2/2025
+j.tania@wustl.edu,40,True,6,,,,6/2/2025
+j.tania@wustl.edu,52,False,6,,,,6/2/2025
+j.tania@wustl.edu,57,True,3,"X=0.9736, Y=0.1437",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,85,True,6,,,,6/2/2025
+j.tania@wustl.edu,77,True,3,"X=0.9704, Y=0.1377",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,66,True,3,"X=0.1712, Y=0.3352",Small (30 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,16,True,2,"X=0.1702, Y=0.4070",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,30,True,6,,,,6/2/2025
+j.tania@wustl.edu,8,False,2,"X=0.1066, Y=0.3891",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,79,True,2,"X=0.9704, Y=0.1496",Medium (60 degrees),Severe (50%),6/2/2025
+j.tania@wustl.edu,23,True,6,,,,6/2/2025
+j.tania@wustl.edu,59,True,3,"X=0.0377, Y=0.3931",Medium (60 degrees),Moderate (25%),6/2/2025
+j.tania@wustl.edu,68,False,6,,,,6/2/2025

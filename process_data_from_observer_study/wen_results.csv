@@ -1,0 +1,181 @@
+User,ImageID,Defect_Present,Confidence,Coordinates,Extent,Severity,Date
+wenxuan.x@wustl.edu,74,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,45,True,2,"X=0.9059, Y=0.0862",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,13,True,2,"X=0.1017, Y=0.3967",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,54,True,3,"X=0.9021, Y=0.0882",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,3,False,3,"X=0.1006, Y=0.3927",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,20,True,2,"X=0.8399, Y=0.1443",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,46,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,45,False,3,"X=0.9059, Y=0.1443",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,21,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,70,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,73,True,2,"X=0.8405, Y=0.0922",Large (90 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,74,True,2,"X=0.9724, Y=0.0862",Large (90 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,9,True,3,"X=0.8405, Y=0.0802",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,3,True,3,"X=0.0362, Y=0.3967",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,27,True,3,"X=0.1714, Y=0.4008",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,44,True,2,"X=0.9719, Y=0.0822",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,85,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,60,False,5,"X=0.1704, Y=0.3346",,,6/2/2025
+wenxuan.x@wustl.edu,49,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,6,False,3,"X=0.9643, Y=0.0842",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,41,True,5,"X=0.0379, Y=0.3386",,,6/2/2025
+wenxuan.x@wustl.edu,52,True,2,"X=0.9681, Y=0.0862",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,15,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,85,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,18,True,2,"X=0.0357, Y=0.3947",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,64,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,38,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,59,False,3,"X=0.5717, Y=0.1483",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,36,True,1,"X=0.1006, Y=0.3987",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,2,False,2,"X=0.9654, Y=0.1503",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,73,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,34,True,3,"X=0.1001, Y=0.4108",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,17,False,3,"X=0.6339, Y=0.0822",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,10,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,6,True,5,"X=0.9697, Y=0.0962",,,6/2/2025
+wenxuan.x@wustl.edu,65,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,86,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,76,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,88,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,87,True,4,,,,6/2/2025
+wenxuan.x@wustl.edu,35,False,4,,,,6/2/2025
+wenxuan.x@wustl.edu,51,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,13,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,81,False,3,"X=0.0379, Y=0.3987",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,26,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,19,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,80,False,3,"X=0.9708, Y=0.1503",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,31,False,3,"X=0.0362, Y=0.4028",Large (90 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,56,True,4,,,,6/2/2025
+wenxuan.x@wustl.edu,84,True,3,"X=0.9697, Y=0.1463",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,36,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,23,True,6,,,,6/2/2025
+wenxuan.x@wustl.edu,49,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,21,True,2,"X=0.9703, Y=0.1463",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,40,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,57,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,48,True,3,"X=0.9686, Y=0.0781",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,83,False,3,"X=0.9654, Y=0.0781",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,64,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,59,True,2,"X=0.9692, Y=0.1503",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,71,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,72,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,63,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,46,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,66,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,16,True,2,"X=0.1011, Y=0.3987",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,56,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,77,True,3,"X=0.9665, Y=0.0822",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,60,True,3,"X=0.9027, Y=0.1443",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,66,True,6,,,,6/2/2025
+wenxuan.x@wustl.edu,87,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,50,True,4,,,,6/2/2025
+wenxuan.x@wustl.edu,5,False,3,"X=0.0357, Y=0.3927",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,78,True,2,"X=0.9659, Y=0.0781",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,58,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,30,True,3,"X=0.9054, Y=0.0862",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,81,True,3,"X=0.0368, Y=0.3887",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,39,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,30,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,26,True,2,"X=0.1044, Y=0.4028",Large (90 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,29,True,2,"X=0.9708, Y=0.0902",Large (90 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,58,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,50,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,16,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,11,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,34,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,20,False,3,"X=0.9659, Y=0.1623",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,57,True,3,"X=0.0941, Y=0.3987",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,40,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,28,True,2,"X=0.9730, Y=0.0902",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,69,True,3,"X=0.0368, Y=0.3907",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,38,False,3,"X=0.0379, Y=0.2986",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,89,False,4,,,,6/2/2025
+wenxuan.x@wustl.edu,24,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,54,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,44,False,2,"X=0.7712, Y=0.1423",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,53,True,2,"X=0.9027, Y=0.0822",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,86,True,5,"X=0.5749, Y=0.0942",,,6/2/2025
+wenxuan.x@wustl.edu,68,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,31,True,2,"X=0.7707, Y=0.1523",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,12,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,75,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,1,True,2,"X=0.9719, Y=0.1483",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,14,True,2,"X=0.1022, Y=0.4028",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,76,True,5,"X=0.2358, Y=0.3326",,,6/2/2025
+wenxuan.x@wustl.edu,55,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,15,True,2,"X=0.1022, Y=0.3947",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,88,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,78,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,19,True,3,"X=0.1038, Y=0.3907",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,42,True,5,"X=0.9746, Y=0.1042",,,6/2/2025
+wenxuan.x@wustl.edu,75,True,3,"X=0.0973, Y=0.4048",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,7,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,79,True,2,"X=0.9686, Y=0.1463",Large (90 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,62,True,3,"X=0.9713, Y=0.0701",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,28,False,3,"X=0.9659, Y=0.1643",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,90,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,67,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,61,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,65,True,2,"X=0.0395, Y=0.3406",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,2,True,3,"X=0.1049, Y=0.3887",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,1,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,52,False,3,"X=0.9616, Y=0.1503",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,9,False,3,"X=0.9740, Y=0.1423",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,17,True,3,"X=0.9686, Y=0.1563",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,70,False,7,,,,6/2/2025
+wenxuan.x@wustl.edu,24,True,5,"X=0.1666, Y=0.4028",,,6/2/2025
+wenxuan.x@wustl.edu,23,False,3,"X=0.9659, Y=0.1523",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,41,False,2,"X=0.1071, Y=0.3907",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,32,False,3,"X=0.0335, Y=0.4028",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,55,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,80,True,4,,,,6/2/2025
+wenxuan.x@wustl.edu,22,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,10,True,3,"X=0.9735, Y=0.0781",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,29,False,5,"X=0.5035, Y=0.6693",,,6/2/2025
+wenxuan.x@wustl.edu,37,False,3,"X=0.9676, Y=0.0521",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,11,True,3,"X=0.9735, Y=0.0781",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,14,False,5,"X=0.9681, Y=0.0641",,,6/2/2025
+wenxuan.x@wustl.edu,25,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,12,True,3,"X=0.9730, Y=0.0781",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,22,True,3,"X=0.1001, Y=0.3907",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,48,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,90,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,32,True,3,"X=0.1720, Y=0.3967",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,4,True,5,"X=0.9703, Y=0.0842",,,6/2/2025
+wenxuan.x@wustl.edu,67,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,84,False,3,"X=0.9648, Y=0.0802",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,68,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,79,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,69,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,33,True,2,"X=0.9070, Y=0.1483",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,8,True,3,"X=0.9719, Y=0.0721",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,47,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,39,True,5,,,,6/2/2025
+wenxuan.x@wustl.edu,72,True,3,"X=0.9708, Y=0.1463",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,43,True,3,"X=0.9740, Y=0.0902",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,77,False,5,"X=0.1660, Y=0.4008",,,6/2/2025
+wenxuan.x@wustl.edu,89,True,4,,,,6/2/2025
+wenxuan.x@wustl.edu,83,True,3,"X=0.0352, Y=0.4008",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,71,True,3,"X=0.0368, Y=0.3967",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,53,False,3,"X=0.0968, Y=0.3967",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,82,True,6,,,,6/2/2025
+wenxuan.x@wustl.edu,33,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,82,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,51,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,18,False,3,"X=0.7020, Y=0.0802",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,61,True,2,"X=0.9697, Y=0.0741",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,47,True,2,"X=0.9665, Y=0.0681",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,62,False,3,"X=0.0373, Y=0.4048",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,27,False,5,,,,6/2/2025
+wenxuan.x@wustl.edu,35,True,2,"X=0.9681, Y=0.1563",Medium (60 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,5,True,3,"X=0.9692, Y=0.0922",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,7,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,4,False,6,,,,6/2/2025
+wenxuan.x@wustl.edu,8,False,3,"X=0.9735, Y=0.1423",Small (30 degrees),Severe (50%),6/2/2025
+wenxuan.x@wustl.edu,43,False,3,"X=0.9713, Y=0.1383",Small (30 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,42,False,2,"X=0.7658, Y=0.1563",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,37,True,6,,,,6/2/2025
+wenxuan.x@wustl.edu,25,True,3,"X=0.9719, Y=0.1583",Medium (60 degrees),Moderate (25%),6/2/2025
+wenxuan.x@wustl.edu,63,True,2,"X=0.1682, Y=0.3166",Small (30 degrees),Severe (50%),6/2/2025

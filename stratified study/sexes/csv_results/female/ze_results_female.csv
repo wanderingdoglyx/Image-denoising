@@ -1,0 +1,55 @@
+User,ImageID,Defect_Present,Confidence,Coordinates,Extent,Severity,Date,ImageName,OldName,PatientID
+y.zezhang@wustl.edu,74,False,7,,,,6/2/2025,h2_img74.png,pat53206417_d4.png,53206417
+y.zezhang@wustl.edu,68,False,7,,,,6/2/2025,h2_img68.png,pat49122253_d4.png,49122253
+y.zezhang@wustl.edu,26,True,1,"X=0.9063, Y=0.1596",Small (30 degrees),Severe (50%),6/2/2025,h1_img26.png,pat26381608_d4_di2160s250.png,26381608
+y.zezhang@wustl.edu,4,True,6,,,,6/2/2025,h1_img4.png,pat06195160_d1_da2160s250.png,06195160
+y.zezhang@wustl.edu,79,True,1,"X=0.9709, Y=0.1556",Medium (60 degrees),Severe (50%),6/2/2025,h1_img79.png,pat94648821_d1_di2160s250.png,94648821
+y.zezhang@wustl.edu,71,True,1,"X=0.9709, Y=0.1536",Small (30 degrees),Moderate (25%),6/2/2025,h1_img71.png,pat88025391_d4_di2130s250.png,88025391
+y.zezhang@wustl.edu,47,True,7,,,,6/2/2025,h1_img47.png,pat49027600_d4_di2160s250.png,49027600
+y.zezhang@wustl.edu,46,True,7,,,,6/2/2025,h1_img46.png,pat49027600_d1_di2160s250.png,49027600
+y.zezhang@wustl.edu,6,True,1,"X=0.9704, Y=0.0978",Small (30 degrees),Severe (50%),6/2/2025,h1_img6.png,pat06195160_d4_da2160s250_lmbdchdiff7_nn.png,06195160
+y.zezhang@wustl.edu,30,True,1,"X=0.9704, Y=0.0758",Small (30 degrees),Moderate (25%),6/2/2025,h1_img30.png,pat36014317_d4_da2160s250_lmbdchdiff7_nn.png,36014317
+y.zezhang@wustl.edu,60,True,2,"X=0.9015, Y=0.1476",Medium (60 degrees),Moderate (25%),6/2/2025,h1_img60.png,pat77529100_d4_di2130s250_lmbdchdiff7_nn.png,77529100
+y.zezhang@wustl.edu,56,False,7,,,,6/2/2025,h2_img56.png,pat42773219_d4.png,42773219
+y.zezhang@wustl.edu,66,True,7,,,,6/2/2025,h1_img66.png,pat82531124_d4_da2160s250_lmbdchdiff7_nn.png,82531124
+y.zezhang@wustl.edu,65,True,1,"X=0.1712, Y=0.3412",Medium (60 degrees),Severe (50%),6/2/2025,h1_img65.png,pat82531124_d4_da2160s250.png,82531124
+y.zezhang@wustl.edu,72,False,7,,,,6/2/2025,h2_img72.png,pat50267880_d4_lmbdchdiff7_nn.png,50267880
+y.zezhang@wustl.edu,81,True,1,"X=0.9731, Y=0.1476",Medium (60 degrees),Severe (50%),6/2/2025,h1_img81.png,pat94648821_d4_di2160s250_lmbdchdiff7_nn.png,94648821
+y.zezhang@wustl.edu,64,True,7,,,,6/2/2025,h1_img64.png,pat82531124_d1_da2160s250.png,82531124
+y.zezhang@wustl.edu,88,False,7,,,,6/2/2025,h2_img88.png,pat68469737_d1.png,68469737
+y.zezhang@wustl.edu,55,False,7,,,,6/2/2025,h2_img55.png,pat42773219_d1.png,42773219
+y.zezhang@wustl.edu,70,True,1,"X=0.3037, Y=0.4150",Medium (60 degrees),Severe (50%),6/2/2025,h1_img70.png,pat88025391_d1_di2130s250.png,88025391
+y.zezhang@wustl.edu,57,False,7,,,,6/2/2025,h2_img57.png,pat42773219_d4_lmbdchdiff7_nn.png,42773219
+y.zezhang@wustl.edu,58,True,7,,,,6/2/2025,h1_img58.png,pat77529100_d1_di2130s250.png,77529100
+y.zezhang@wustl.edu,25,True,1,"X=0.7711, Y=0.1516",Medium (60 degrees),Severe (50%),6/2/2025,h1_img25.png,pat26381608_d1_di2160s250.png,26381608
+y.zezhang@wustl.edu,20,True,1,"X=0.8390, Y=0.1476",Large (90 degrees),Severe (50%),6/2/2025,h1_img20.png,pat22325636_d4_di2160s250.png,22325636
+y.zezhang@wustl.edu,19,True,1,"X=0.8384, Y=0.1476",Medium (60 degrees),Severe (50%),6/2/2025,h1_img19.png,pat22325636_d1_di2160s250.png,22325636
+y.zezhang@wustl.edu,67,False,7,,,,6/2/2025,h2_img67.png,pat49122253_d1.png,49122253
+y.zezhang@wustl.edu,51,False,7,,,,6/2/2025,h2_img51.png,pat41629020_d4_lmbdchdiff7_nn.png,41629020
+y.zezhang@wustl.edu,72,True,1,"X=0.1050, Y=0.3991",Medium (60 degrees),Severe (50%),6/2/2025,h1_img72.png,pat88025391_d4_di2130s250_lmbdchdiff7_nn.png,88025391
+y.zezhang@wustl.edu,48,True,7,,,,6/2/2025,h1_img48.png,pat49027600_d4_di2160s250_lmbdchdiff7_nn.png,49027600
+y.zezhang@wustl.edu,21,True,1,"X=0.9063, Y=0.1377",Medium (60 degrees),Moderate (25%),6/2/2025,h1_img21.png,pat22325636_d4_di2160s250_lmbdchdiff7_nn.png,22325636
+y.zezhang@wustl.edu,70,False,7,,,,6/2/2025,h2_img70.png,pat50267880_d1.png,50267880
+y.zezhang@wustl.edu,73,False,7,,,,6/2/2025,h2_img73.png,pat53206417_d1.png,53206417
+y.zezhang@wustl.edu,13,True,1,"X=0.8379, Y=0.1476",Large (90 degrees),Moderate (25%),6/2/2025,h1_img13.png,pat10624767_d1_di2160s250.png,10624767
+y.zezhang@wustl.edu,81,False,1,"X=0.1066, Y=0.4070",Small (30 degrees),Moderate (25%),6/2/2025,h2_img81.png,pat59270245_d4_lmbdchdiff7_nn.png,59270245
+y.zezhang@wustl.edu,2,True,1,"X=0.8411, Y=0.1457",Small (30 degrees),Moderate (25%),6/2/2025,h1_img2.png,pat03324602_d4_di2130s250.png,03324602
+y.zezhang@wustl.edu,28,True,1,"X=0.9715, Y=0.0798",Small (30 degrees),Moderate (25%),6/2/2025,h1_img28.png,pat36014317_d1_da2160s250.png,36014317
+y.zezhang@wustl.edu,3,True,1,"X=0.8411, Y=0.1437",Small (30 degrees),Moderate (25%),6/2/2025,h1_img3.png,pat03324602_d4_di2130s250_lmbdchdiff7_nn.png,03324602
+y.zezhang@wustl.edu,89,False,6,,,,6/2/2025,h2_img89.png,pat68469737_d4.png,68469737
+y.zezhang@wustl.edu,15,True,2,"X=0.7690, Y=0.1516",Small (30 degrees),Moderate (25%),6/2/2025,h1_img15.png,pat10624767_d4_di2160s250_lmbdchdiff7_nn.png,10624767
+y.zezhang@wustl.edu,75,False,7,,,,6/2/2025,h2_img75.png,pat53206417_d4_lmbdchdiff7_nn.png,53206417
+y.zezhang@wustl.edu,29,True,1,"X=0.9698, Y=0.0798",Small (30 degrees),Moderate (25%),6/2/2025,h1_img29.png,pat36014317_d4_da2160s250.png,36014317
+y.zezhang@wustl.edu,50,False,7,,,,6/2/2025,h2_img50.png,pat41629020_d4.png,41629020
+y.zezhang@wustl.edu,59,True,6,,,,6/2/2025,h1_img59.png,pat77529100_d4_di2130s250.png,77529100
+y.zezhang@wustl.edu,80,False,7,,,,6/2/2025,h2_img80.png,pat59270245_d4.png,59270245
+y.zezhang@wustl.edu,80,True,2,"X=0.9715, Y=0.1476",Small (30 degrees),Moderate (25%),6/2/2025,h1_img80.png,pat94648821_d4_di2160s250.png,94648821
+y.zezhang@wustl.edu,1,True,1,"X=0.9725, Y=0.1536",Small (30 degrees),Moderate (25%),6/2/2025,h1_img1.png,pat03324602_d1_di2130s250.png,03324602
+y.zezhang@wustl.edu,69,False,7,,,,6/2/2025,h2_img69.png,pat49122253_d4_lmbdchdiff7_nn.png,49122253
+y.zezhang@wustl.edu,27,True,1,"X=0.9731, Y=0.1556",Medium (60 degrees),Moderate (25%),6/2/2025,h1_img27.png,pat26381608_d4_di2160s250_lmbdchdiff7_nn.png,26381608
+y.zezhang@wustl.edu,90,False,7,,,,6/2/2025,h2_img90.png,pat68469737_d4_lmbdchdiff7_nn.png,68469737
+y.zezhang@wustl.edu,49,False,7,,,,6/2/2025,h2_img49.png,pat41629020_d1.png,41629020
+y.zezhang@wustl.edu,71,False,7,,,,6/2/2025,h2_img71.png,pat50267880_d4.png,50267880
+y.zezhang@wustl.edu,5,True,1,"X=0.9682, Y=0.0918",Medium (60 degrees),Moderate (25%),6/2/2025,h1_img5.png,pat06195160_d4_da2160s250.png,06195160
+y.zezhang@wustl.edu,79,False,7,,,,6/2/2025,h2_img79.png,pat59270245_d1.png,59270245
+y.zezhang@wustl.edu,14,True,1,"X=0.1045, Y=0.4010",Small (30 degrees),Moderate (25%),6/2/2025,h1_img14.png,pat10624767_d4_di2160s250.png,10624767
